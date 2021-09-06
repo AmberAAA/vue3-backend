@@ -1,4 +1,7 @@
 #/bin/bash
+echo "拉取代码"
+git checkout .
+git pull
 echo "安装依赖..."
 npm i
 echo "打包..."
